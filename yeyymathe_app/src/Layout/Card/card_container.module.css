@@ -1,0 +1,38 @@
+/* card.css */
+
+.card {
+  height: 50rem;
+  width: 40rem;
+  background-color: rgb(206, 206, 206);
+  border-radius: 2rem;
+  margin: auto;
+  margin-top: 5rem;
+}
+
+.card--light {
+  background-color: #fff;
+}
+
+.card--hover:hover {
+  opacity: 0.5;
+}
+
+.card--dark {
+  background-color: #000;
+}
+
+.card__title {
+  font-size: 4rem;
+}
+
+.card__title--bold {
+  font-weight: 600;
+}
+
+.card__description {
+  font-size: 2rem;
+}
+
+.card__description--italic {
+  font-style: italic;
+}
